@@ -33,5 +33,5 @@ Apple Developer ID and notarized by Apple, and it updates itself.
 ## Legal
 
 Use of BotLegger is subject to the [End User License Agreement](https://botlegger.com/eula),
-[Terms of Service](https://botlegger.com/terms), and
+[Terms of Use](https://botlegger.com/terms), and
 [Privacy Policy](https://botlegger.com/privacy). All rights reserved.
