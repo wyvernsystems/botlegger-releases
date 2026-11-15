@@ -9,6 +9,8 @@ This repository holds release files only. BotLegger is closed source.
 ## Download
 
 Get the latest version from [Releases](../../releases/latest).
+The latest release's signed security report is [security-report.md](security-report.md)
+(the same file as the release's own, with its signature in `security-report.md.sig`).
 
 | Platform | File | Requires |
 |----------|------|----------|
