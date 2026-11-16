@@ -1,8 +1,8 @@
-# BotLegger 0.9.0 security report
+# BotLegger 0.10.0 security report
 
-**All 10 checks passed.** 25 known exceptions were reviewed and kept (6 low risk, 19 no risk); they are listed at the end.
+**All 10 checks passed.** 24 known exceptions were reviewed and kept (5 low risk, 19 no risk); they are listed at the end.
 
-Built from commit `40e39eb5d119` on 2026-11-15. Every check ran on the release's own commit and files, and the release is not published unless all of them pass.
+Built from commit `ecf2af4ec512` on 2026-11-15. Every check ran on the release's own commit and files, and the release is not published unless all of them pass.
 
 ## Checks
 
@@ -23,16 +23,16 @@ Built from commit `40e39eb5d119` on 2026-11-15. Every check ran on the release's
 
 | File | SHA-256 | Signature | Hardening | VirusTotal |
 |------|---------|-----------|-----------|------------|
-| `BotLegger_0.9.0_linux_x86_64.tar.gz` | `78ec4585872dcf02dcf760f11e7704dda65fd97a22c1c847da0da9ccaa7cc90b` | unsigned archive; verify the SHA-256 in sha256.sum | botlegger: PIE, NX, full RELRO; 11 bundled libraries and helpers also checked | [0 of 52 engines flag it](https://www.virustotal.com/gui/file/78ec4585872dcf02dcf760f11e7704dda65fd97a22c1c847da0da9ccaa7cc90b) |
-| `BotLegger_0.9.0_universal.dmg` | `1c8ca8bb42ef485de2a3948ac9ff8209f87eb8b94a1fdd48934c70ea255f1ca1` | Developer ID (team 5S6TA8TSAC), notarized by Apple, ticket stapled, hardened runtime | PIE, stack canary | [0 of 61 engines flag it](https://www.virustotal.com/gui/file/1c8ca8bb42ef485de2a3948ac9ff8209f87eb8b94a1fdd48934c70ea255f1ca1) |
-| `BotLegger_0.9.0_windows_x86_64.zip` | `f871f60b390ebad1df8f7d93f5c89d45707685fb063403aa1f6d6583cf85a790` | unsigned (SmartScreen warns on first launch) | botlegger.exe: ASLR, high-entropy ASLR, DEP; 15 bundled libraries and helpers also checked | [0 of 65 engines flag it](https://www.virustotal.com/gui/file/f871f60b390ebad1df8f7d93f5c89d45707685fb063403aa1f6d6583cf85a790) |
-| `BotLegger_0.9.0_windows_x86_64_setup.exe` | `e61642be9e28776d5381fae03cc38d769738145ae96973fa0dfe495bc9abe5cf` | unsigned (SmartScreen warns on first launch) | BotLegger_0.9.0_windows_x86_64_setup.exe: ASLR, DEP | [0 of 69 engines flag it](https://www.virustotal.com/gui/file/e61642be9e28776d5381fae03cc38d769738145ae96973fa0dfe495bc9abe5cf) |
-| `bot-linux-x86_64.tar.gz` | `8ff8656c00801d7d4963b001a3428c39a5df11f65e01476c9cef350af44e210c` | unsigned archive; verify the SHA-256 in sha256.sum | bot: PIE, NX, full RELRO, stack canary | [0 of 60 engines flag it](https://www.virustotal.com/gui/file/8ff8656c00801d7d4963b001a3428c39a5df11f65e01476c9cef350af44e210c) |
-| `bot-tui-aarch64-apple-darwin.tar.xz` | `cf6f5ec572c0689ab908b92cefa8c05740d49c0b485ec75399c731b9093e7655` | Developer ID (team 5S6TA8TSAC), hardened runtime | PIE, stack canary | [0 of 61 engines flag it](https://www.virustotal.com/gui/file/cf6f5ec572c0689ab908b92cefa8c05740d49c0b485ec75399c731b9093e7655) |
-| `bot-tui-x86_64-apple-darwin.tar.xz` | `34f8b10fbb940d4407ea9fd1dc4a8a52b5104f6cddf93ddbb661fd2dfeae568f` | Developer ID (team 5S6TA8TSAC), hardened runtime | PIE, stack canary | [0 of 37 engines flag it](https://www.virustotal.com/gui/file/34f8b10fbb940d4407ea9fd1dc4a8a52b5104f6cddf93ddbb661fd2dfeae568f) |
-| `bot-tui-x86_64-pc-windows-msvc.zip` | `a940334edbeb7fdfcbe4554a2c3dae00274c1cd288baf5e271f8aed4844f5367` | unsigned (SmartScreen warns on first launch) | botlegger.exe: ASLR, high-entropy ASLR, DEP | [0 of 65 engines flag it](https://www.virustotal.com/gui/file/a940334edbeb7fdfcbe4554a2c3dae00274c1cd288baf5e271f8aed4844f5367) |
-| `bot-tui-x86_64-unknown-linux-gnu.tar.xz` | `ca28cb083448f98392765e3cefdee0e02ad6ee4e9e21cee918b213cf9c8d6452` | unsigned archive; verify the SHA-256 in sha256.sum | botlegger: PIE, NX, full RELRO, stack canary | [0 of 60 engines flag it](https://www.virustotal.com/gui/file/ca28cb083448f98392765e3cefdee0e02ad6ee4e9e21cee918b213cf9c8d6452) |
-| `ggml-small-q5_1.bin` | `ae85e4a935d7a567bd102fe55afc16bb595bdb618e11b2fc7591bc08120411bb` | data file, not a program; the apps accept only this SHA-256 | not applicable | [0 of 61 engines flag it](https://www.virustotal.com/gui/file/ae85e4a935d7a567bd102fe55afc16bb595bdb618e11b2fc7591bc08120411bb) |
+| `BotLegger_0.10.0_linux_x86_64.tar.gz` | `f38fc7ebfc5eaaffbaa77e460193325d379677edcf3424010fa746dbff22d831` | unsigned archive; verify the SHA-256 in sha256.sum | botlegger: PIE, NX, full RELRO; 11 bundled libraries and helpers also checked | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/f38fc7ebfc5eaaffbaa77e460193325d379677edcf3424010fa746dbff22d831) |
+| `BotLegger_0.10.0_universal.dmg` | `43e17add9d6d77f6390875f25d4ade85e0ab1d5dbfe44081d7239e817736808d` | Developer ID (team 5S6TA8TSAC), notarized by Apple, ticket stapled, hardened runtime | PIE, stack canary | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/43e17add9d6d77f6390875f25d4ade85e0ab1d5dbfe44081d7239e817736808d) |
+| `BotLegger_0.10.0_windows_x86_64.zip` | `a3ef252447d6bd5df4f4688c34818e790aa0b902b76080b7621feeddd9baa16f` | unsigned (SmartScreen warns on first launch) | botlegger.exe: ASLR, high-entropy ASLR, DEP; 15 bundled libraries and helpers also checked | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/a3ef252447d6bd5df4f4688c34818e790aa0b902b76080b7621feeddd9baa16f) |
+| `BotLegger_0.10.0_windows_x86_64_setup.exe` | `d4abe6298e155928d43e311f471f184992e799445be28506475b38859f07e1f6` | unsigned (SmartScreen warns on first launch) | BotLegger_0.10.0_windows_x86_64_setup.exe: ASLR, DEP | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/d4abe6298e155928d43e311f471f184992e799445be28506475b38859f07e1f6) |
+| `bot-linux-x86_64.tar.gz` | `2e1e1f0806d4bb401ece60ee3d5d8766fa4c26c68d80518ee926f5069a1f76f7` | unsigned archive; verify the SHA-256 in sha256.sum | bot: PIE, NX, full RELRO, stack canary | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/2e1e1f0806d4bb401ece60ee3d5d8766fa4c26c68d80518ee926f5069a1f76f7) |
+| `bot-tui-aarch64-apple-darwin.tar.xz` | `da0f22a81bc49b0e7717956a21cf38f3958595010fe7a42eb8fe3b2ded2a719a` | Developer ID (team 5S6TA8TSAC), hardened runtime | PIE, stack canary | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/da0f22a81bc49b0e7717956a21cf38f3958595010fe7a42eb8fe3b2ded2a719a) |
+| `bot-tui-x86_64-apple-darwin.tar.xz` | `534f7148af590489609d08648f003f81279206738f00e89baa67494d00ba135f` | Developer ID (team 5S6TA8TSAC), hardened runtime | PIE, stack canary | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/534f7148af590489609d08648f003f81279206738f00e89baa67494d00ba135f) |
+| `bot-tui-x86_64-pc-windows-msvc.zip` | `85f926b5991c3907cacb70da65a95564f300d7cdf16dfd4d35175d7b9a01020b` | unsigned (SmartScreen warns on first launch) | botlegger.exe: ASLR, high-entropy ASLR, DEP | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/85f926b5991c3907cacb70da65a95564f300d7cdf16dfd4d35175d7b9a01020b) |
+| `bot-tui-x86_64-unknown-linux-gnu.tar.xz` | `7161baf1048cd996212cf641e89a78d2bf6bab86041528db84f7f7d8de8cf5d0` | unsigned archive; verify the SHA-256 in sha256.sum | botlegger: PIE, NX, full RELRO, stack canary | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/7161baf1048cd996212cf641e89a78d2bf6bab86041528db84f7f7d8de8cf5d0) |
+| `ggml-small-q5_1.bin` | `ae85e4a935d7a567bd102fe55afc16bb595bdb618e11b2fc7591bc08120411bb` | data file, not a program; the apps accept only this SHA-256 | not applicable | [0 of 75 engines flag it](https://www.virustotal.com/gui/file/ae85e4a935d7a567bd102fe55afc16bb595bdb618e11b2fc7591bc08120411bb) |
 
 ## Command-line installer scripts
 
@@ -40,12 +40,12 @@ Text scripts that download the command-line archives above and check their SHA-2
 
 | File | SHA-256 |
 |------|---------|
-| `bot-tui-installer.ps1` | `83fe02b6b7b6d94826249439eec2cc877ab7f9982fa17ecb120e4d02f5064e20` |
-| `bot-tui-installer.sh` | `5e606bd82e1245b420ff6182b08e98b91ccbdc2426a3b313c94344a2ffef9687` |
+| `bot-tui-installer.ps1` | `8f2be3d5f9e813780bb33cadfa2c508e524d236cef406ec4efff2ac68141be83` |
+| `bot-tui-installer.sh` | `9ef6bf8af0782f2a0b8a79f7f00e6469aa208a3c4e8722dc47cdbaa1d0d1d249` |
 
 ## Known exceptions
 
-Scanners flag patterns, and some of what they flag is harmless, such as made-up credentials that tests use to check secrets are hidden. 25 known exceptions were reviewed and kept (6 low risk, 19 no risk). Each is looked at again by its review date, and nothing above medium risk is ever accepted: anything riskier is fixed. Components are described rather than named, so this list is not a map of what to attack.
+Scanners flag patterns, and some of what they flag is harmless, such as made-up credentials that tests use to check secrets are hidden. 24 known exceptions were reviewed and kept (5 low risk, 19 no risk). Each is looked at again by its review date, and nothing above medium risk is ever accepted: anything riskier is fixed. Components are described rather than named, so this list is not a map of what to attack.
 
 | Kind | Risk | Count | Why it is kept | Review by |
 |------|------|-------|----------------|-----------|
@@ -54,7 +54,6 @@ Scanners flag patterns, and some of what they flag is harmless, such as made-up 
 | Build workflow | low | 1 | Build commands are inserted from the release tool's own configuration in the repository, never from outside input such as issue or pull request text. | 2027-11-07 |
 | Build workflow | low | 1 | The build machine image is chosen and pinned by the release tool's own plan in the repository; the workflow only passes that choice along. | 2027-11-07 |
 | Third-party licence | low | 1 | A third-party library under a licence outside our default list. We use it unmodified and ship its notice, which is all that licence asks; replacing it would break a feature. | 2027-11-07 |
-| Third-party licence | low | 1 | Third-party map data under an attribution licence. We ship it unmodified with the required attribution; the code that reads it is under a permissive licence. Replacing it would break a feature. | 2027-11-07 |
 | Test data | none | 13 | Made-up credentials in automated tests that check secrets are hidden or refused; none ever worked anywhere. | 2027-11-07 |
 | Build workflow | none | 1 | A value inserted into a build command comes from a fixed list written in the same workflow, so no outside input can reach it. | 2027-11-07 |
 | Build workflow | none | 1 | The build passes its own credentials to build steps the way the build service documents; the rule flags every such use, safe or not. | 2027-11-07 |
