@@ -1,8 +1,8 @@
-# BotLegger 0.10.0 security report
+# BotLegger 0.11.1 security report
 
 **All 10 checks passed.** 24 known exceptions were reviewed and kept (5 low risk, 19 no risk); they are listed at the end.
 
-Built from commit `ecf2af4ec512` on 2026-11-15. Every check ran on the release's own commit and files, and the release is not published unless all of them pass.
+Built from commit `49184dd54adb` on 2026-11-16. Every check ran on the release's own commit and files, and the release is not published unless all of them pass.
 
 ## Checks
 
@@ -23,15 +23,15 @@ Built from commit `ecf2af4ec512` on 2026-11-15. Every check ran on the release's
 
 | File | SHA-256 | Signature | Hardening | VirusTotal |
 |------|---------|-----------|-----------|------------|
-| `BotLegger_0.10.0_linux_x86_64.tar.gz` | `f38fc7ebfc5eaaffbaa77e460193325d379677edcf3424010fa746dbff22d831` | unsigned archive; verify the SHA-256 in sha256.sum | botlegger: PIE, NX, full RELRO; 11 bundled libraries and helpers also checked | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/f38fc7ebfc5eaaffbaa77e460193325d379677edcf3424010fa746dbff22d831) |
-| `BotLegger_0.10.0_universal.dmg` | `43e17add9d6d77f6390875f25d4ade85e0ab1d5dbfe44081d7239e817736808d` | Developer ID (team 5S6TA8TSAC), notarized by Apple, ticket stapled, hardened runtime | PIE, stack canary | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/43e17add9d6d77f6390875f25d4ade85e0ab1d5dbfe44081d7239e817736808d) |
-| `BotLegger_0.10.0_windows_x86_64.zip` | `a3ef252447d6bd5df4f4688c34818e790aa0b902b76080b7621feeddd9baa16f` | unsigned (SmartScreen warns on first launch) | botlegger.exe: ASLR, high-entropy ASLR, DEP; 15 bundled libraries and helpers also checked | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/a3ef252447d6bd5df4f4688c34818e790aa0b902b76080b7621feeddd9baa16f) |
-| `BotLegger_0.10.0_windows_x86_64_setup.exe` | `d4abe6298e155928d43e311f471f184992e799445be28506475b38859f07e1f6` | unsigned (SmartScreen warns on first launch) | BotLegger_0.10.0_windows_x86_64_setup.exe: ASLR, DEP | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/d4abe6298e155928d43e311f471f184992e799445be28506475b38859f07e1f6) |
-| `bot-linux-x86_64.tar.gz` | `2e1e1f0806d4bb401ece60ee3d5d8766fa4c26c68d80518ee926f5069a1f76f7` | unsigned archive; verify the SHA-256 in sha256.sum | bot: PIE, NX, full RELRO, stack canary | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/2e1e1f0806d4bb401ece60ee3d5d8766fa4c26c68d80518ee926f5069a1f76f7) |
-| `bot-tui-aarch64-apple-darwin.tar.xz` | `da0f22a81bc49b0e7717956a21cf38f3958595010fe7a42eb8fe3b2ded2a719a` | Developer ID (team 5S6TA8TSAC), hardened runtime | PIE, stack canary | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/da0f22a81bc49b0e7717956a21cf38f3958595010fe7a42eb8fe3b2ded2a719a) |
-| `bot-tui-x86_64-apple-darwin.tar.xz` | `534f7148af590489609d08648f003f81279206738f00e89baa67494d00ba135f` | Developer ID (team 5S6TA8TSAC), hardened runtime | PIE, stack canary | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/534f7148af590489609d08648f003f81279206738f00e89baa67494d00ba135f) |
-| `bot-tui-x86_64-pc-windows-msvc.zip` | `85f926b5991c3907cacb70da65a95564f300d7cdf16dfd4d35175d7b9a01020b` | unsigned (SmartScreen warns on first launch) | botlegger.exe: ASLR, high-entropy ASLR, DEP | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/85f926b5991c3907cacb70da65a95564f300d7cdf16dfd4d35175d7b9a01020b) |
-| `bot-tui-x86_64-unknown-linux-gnu.tar.xz` | `7161baf1048cd996212cf641e89a78d2bf6bab86041528db84f7f7d8de8cf5d0` | unsigned archive; verify the SHA-256 in sha256.sum | botlegger: PIE, NX, full RELRO, stack canary | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/7161baf1048cd996212cf641e89a78d2bf6bab86041528db84f7f7d8de8cf5d0) |
+| `BotLegger_0.11.1_linux_x86_64.tar.gz` | `a5e94fdfd3f3f00e7c4470e82666cc48ec57b9c593c07df6a3d513945d02a741` | unsigned archive; verify the SHA-256 in sha256.sum | botlegger: PIE, NX, full RELRO; 11 bundled libraries and helpers also checked | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/a5e94fdfd3f3f00e7c4470e82666cc48ec57b9c593c07df6a3d513945d02a741) |
+| `BotLegger_0.11.1_universal.dmg` | `fa41b9c0e17a002d67d10dd51f89946394ae374359c56fc38a42d1771507d6a8` | Developer ID (team 5S6TA8TSAC), notarized by Apple, ticket stapled, hardened runtime | PIE, stack canary | [0 of 73 engines flag it](https://www.virustotal.com/gui/file/fa41b9c0e17a002d67d10dd51f89946394ae374359c56fc38a42d1771507d6a8) |
+| `BotLegger_0.11.1_windows_x86_64.zip` | `184d53c1a6323b990cc25ea339dcff43d171ff9e39a187c62288a51bfba6257f` | unsigned (SmartScreen warns on first launch) | botlegger.exe: ASLR, high-entropy ASLR, DEP; 15 bundled libraries and helpers also checked | [0 of 73 engines flag it](https://www.virustotal.com/gui/file/184d53c1a6323b990cc25ea339dcff43d171ff9e39a187c62288a51bfba6257f) |
+| `BotLegger_0.11.1_windows_x86_64_setup.exe` | `70a634c5aa9520c7c78fa9a6dda5c8a476f95bec830b9ed7d69eddfc87706d2d` | unsigned (SmartScreen warns on first launch) | BotLegger_0.11.1_windows_x86_64_setup.exe: ASLR, DEP | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/70a634c5aa9520c7c78fa9a6dda5c8a476f95bec830b9ed7d69eddfc87706d2d) |
+| `bot-linux-x86_64.tar.gz` | `8a8fbdb7c7c4d13fe7876495673889741b5914b83f0b43e3d75d477ef4577ef2` | unsigned archive; verify the SHA-256 in sha256.sum | bot: PIE, NX, full RELRO, stack canary | [0 of 73 engines flag it](https://www.virustotal.com/gui/file/8a8fbdb7c7c4d13fe7876495673889741b5914b83f0b43e3d75d477ef4577ef2) |
+| `bot-tui-aarch64-apple-darwin.tar.xz` | `5ed17b8e9ea5c03d0ea3af6d302cd8bb1f1d58a3a6deb22c3996dd4f49a5fd2e` | Developer ID (team 5S6TA8TSAC), hardened runtime | PIE, stack canary | [0 of 73 engines flag it](https://www.virustotal.com/gui/file/5ed17b8e9ea5c03d0ea3af6d302cd8bb1f1d58a3a6deb22c3996dd4f49a5fd2e) |
+| `bot-tui-x86_64-apple-darwin.tar.xz` | `80215b5ccf8b763b2b50a2dbef31bd48aeb16df8d00ae54c38634657da8bd9e4` | Developer ID (team 5S6TA8TSAC), hardened runtime | PIE, stack canary | [0 of 74 engines flag it](https://www.virustotal.com/gui/file/80215b5ccf8b763b2b50a2dbef31bd48aeb16df8d00ae54c38634657da8bd9e4) |
+| `bot-tui-x86_64-pc-windows-msvc.zip` | `f26e07fe27163b43ea3bdae1a9be0240c0e9444c19011cbe8b647f2391a1a982` | unsigned (SmartScreen warns on first launch) | botlegger.exe: ASLR, high-entropy ASLR, DEP | [0 of 73 engines flag it](https://www.virustotal.com/gui/file/f26e07fe27163b43ea3bdae1a9be0240c0e9444c19011cbe8b647f2391a1a982) |
+| `bot-tui-x86_64-unknown-linux-gnu.tar.xz` | `0ccc7f70d701ae2e5db9a344e5be3cc12c1330ae99a1deb32d9d9b7394676232` | unsigned archive; verify the SHA-256 in sha256.sum | botlegger: PIE, NX, full RELRO, stack canary | [0 of 73 engines flag it](https://www.virustotal.com/gui/file/0ccc7f70d701ae2e5db9a344e5be3cc12c1330ae99a1deb32d9d9b7394676232) |
 | `ggml-small-q5_1.bin` | `ae85e4a935d7a567bd102fe55afc16bb595bdb618e11b2fc7591bc08120411bb` | data file, not a program; the apps accept only this SHA-256 | not applicable | [0 of 75 engines flag it](https://www.virustotal.com/gui/file/ae85e4a935d7a567bd102fe55afc16bb595bdb618e11b2fc7591bc08120411bb) |
 
 ## Command-line installer scripts
@@ -40,8 +40,8 @@ Text scripts that download the command-line archives above and check their SHA-2
 
 | File | SHA-256 |
 |------|---------|
-| `bot-tui-installer.ps1` | `8f2be3d5f9e813780bb33cadfa2c508e524d236cef406ec4efff2ac68141be83` |
-| `bot-tui-installer.sh` | `9ef6bf8af0782f2a0b8a79f7f00e6469aa208a3c4e8722dc47cdbaa1d0d1d249` |
+| `bot-tui-installer.ps1` | `b16903d70365ca899999f72bd55aa18f16970d2f819de1f0e458d341a65ea516` |
+| `bot-tui-installer.sh` | `ef7ce76b91e569f6fcaf31fd8a025233a4545125ddd1e78f34dbc8f9f1e1f151` |
 
 ## Known exceptions
 
